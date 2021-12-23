@@ -1,7 +1,7 @@
 package main
 
-import "pulpdrew/aoc-2021/day22"
+import "pulpdrew/aoc-2021/day23"
 
 func main() {
-	day22.Run()
+	day23.Run()
 }
