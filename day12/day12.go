@@ -25,9 +25,9 @@ func Run() {
 	}
 
 	part1 := countPaths("start", caves, make(map[string]int), canVisitPart1)
-	fmt.Printf("Day 12 Part 1: %v paths\n", part1)
+	fmt.Printf("Day 12 - Part 1: %v paths\n", part1)
 	part2 := countPaths("start", caves, make(map[string]int), canVisitPart2)
-	fmt.Printf("Day 12 Part 2: %v paths\n", part2)
+	fmt.Printf("Day 12 - Part 2: %v paths\n", part2)
 }
 
 func copy(original *map[string]int) map[string]int {

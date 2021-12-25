@@ -33,11 +33,11 @@ func Run() {
 
 	// Part 1
 	foldedPoints, _, _ := plot(points, folds[0:1])
-	fmt.Printf("Day 13 Part 1: %v plotted points\n", len(foldedPoints))
+	fmt.Printf("Day 13 - Part 1: %v plotted points\n", len(foldedPoints))
 
 	// Part 2
 	foldedPoints2, maxX2, maxY2 := plot(points, folds)
-	fmt.Printf("Day 13 Part 2: The Code is\n")
+	fmt.Printf("Day 13 - Part 2: The Code is\n")
 	print(foldedPoints2, maxX2, maxY2)
 }
 

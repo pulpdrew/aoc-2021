@@ -48,7 +48,7 @@ func part1(instructions []Instruction) {
 		}
 	}
 
-	fmt.Printf("Day 2 - Part 1:\n (%v depth x %v position) = %v\n", depth, position, depth*position)
+	fmt.Printf("Day 2 - Part 1: (%v depth x %v position) = %v\n", depth, position, depth*position)
 }
 
 func part2(instructions []Instruction) {
@@ -69,5 +69,5 @@ func part2(instructions []Instruction) {
 		}
 	}
 
-	fmt.Printf("Day 2 - Part 2:\n (%v depth x %v position) = %v\n", depth, position, depth*position)
+	fmt.Printf("Day 2 - Part 2: (%v depth x %v position) = %v\n", depth, position, depth*position)
 }

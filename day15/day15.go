@@ -38,7 +38,7 @@ func part1() {
 	}
 
 	n := leastRiskPath(nodes)
-	fmt.Printf("Day 15 - Part 1: The least risky path has cumulative risk %v\n", n.leastCumulativeRisk)
+	fmt.Printf("Day 15 - Part 1: The least risky path has cumulative risk %v", n.leastCumulativeRisk)
 }
 
 func part2() {
